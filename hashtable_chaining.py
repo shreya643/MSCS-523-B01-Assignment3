@@ -46,12 +46,14 @@ class HashTableChaining:
 
 
 hash_table = HashTableChaining()
-hash_table.insert("apple", 1)
-hash_table.insert("banana", 2)
-hash_table.insert("cherry", 3)
+hash_table.insert("test1", 1)
+hash_table.insert("test2", 2)
+hash_table.insert("test3", 3)
+hash_table.insert("test4", 4)
+hash_table.insert("test5", 5)
 
-print("Search 'apple':", hash_table.search("apple"))
-print("Search 'banana':", hash_table.search("banana"))
+print("Search 'test1':", hash_table.search("test1"))
+print("Search 'test3':", hash_table.search("test3"))
 
-hash_table.delete("banana")
-print("Search 'banana' after deletion:", hash_table.search("banana"))
+hash_table.delete("test3")
+print("Search 'test3' after deletion:", hash_table.search("test3"))
